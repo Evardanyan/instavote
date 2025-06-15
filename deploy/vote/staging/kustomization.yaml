@@ -22,3 +22,6 @@ commonLabels:
 commonAnnotations:
   supported-by: "sre@team.com"
 
+configMapGenerator:
+  - name: vote-options
+    env: options.env
