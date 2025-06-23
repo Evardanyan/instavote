@@ -13,7 +13,7 @@ replicas:
 
 images:
  - name: schoolofdevops/vote
-   newTag: v6
+   newTag: v6 # {"$imagepolicy": "flux-system:vote:tag"}
 
 commonLabels:
   project: instavote
