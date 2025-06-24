@@ -11,6 +11,7 @@ replicas:
   count: 2
 images:
 - name: schoolofdevops/vote
+  newname: e4gar/vote
   newTag: main-7b531629-1750701393 # {"$imagepolicy": "flux-system:vote:tag"}
 commonLabels:
   project: instavote
